@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="reg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script>
+      function validateForm(event) {
+          event.preventDefault();  // Prevent the default form submission
+
+          // Validate the form inputs
+          const name = document.getElementById('name').value;
+          const lname = document.getElementById('lname').value;
+          const email = document.getElementById('email').value;
+          const pno = document.getElementById('pno').value;
+          const pass = document.getElementById('pass').value;
+          const cpass = document.getElementById('cpass').value;
+
+          // Add your validation logic here
+          // For simplicity, we'll check if the fields are not empty
+          if (name.trim() === '' || lname.trim() === '' || email.trim() === '' || pno.trim() === '' || pass.trim() === '' || cpass.trim() === '') {
+              alert('All fields are required.');
+              return;
+          }
+
+          // Check if password and confirm password match
+          if (pass !== cpass) {
+              alert('Passwords do not match.');
+              return;
+        }
+
+          // Redirect to another page upon successful validation
+          window.location.href = 'login.html';
+      }
+  </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div id="loader" class="loader">
+        <img src="newlogo.png" alt="Logo">
+    </div>
+    <div id="content" class="content">
+        <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+            <div class="container">
+                <a class="navbar-brand" href="index.html">SRI SENTHIL ANDAVAR <span>TEXTILE</span></a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarsFurni">
+                    <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li><a class="nav-link" href="shop.html">Shop</a></li>
+                        <li><a class="nav-link" href="about.html">About us</a></li>
+                        <li><a class="nav-link" href="services.html">Services</a></li>
+                        <li><a class="nav-link" href="location.html">feedback</a></li>
+                        <li><a class="nav-link" href="contact.html">Contact us</a></li>
+                    </ul>
+    
+                    <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+                        <li><a class="nav-link" href="login.html"><img src="images/user.svg"></a></li>
+                        <li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+                    </ul>
+                </div>
+            </div>
+                
+        </nav>
+    <section class="login py-5 bg-light">
+        <div class="container mt-5">
+            <div class="row g-0">
+                <div class="col-lg-5">
+                    <img src="regphoto.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7 text-center py-5">
+                    <h1 class="animate__animated animate__heartBeat animate__infinite">REGISTRATION FORM</h1>
+                    <form action="http://localhost:3000/" method="POST" id="f1" class="needs-validation" novalidate>
+                        <div class="form-row py-3">
+                            <div class="offset-1 col-lg-10">
+                                <input type="text" class="inp px-3" id="name" name="name" placeholder="First Name" required>
+                            </div>
+                        </div>  
+                            <div class="form-row-py-3">
+                              <div class="offset-1 col-lg-10">
+                                <input type="text" class="inp px-3" id="lname" name="lname" placeholder="Last Name" required>
+                              </div>
+
+                            </div>
+                        
+                       
+                        <div class="form-row py-3">
+                            <div class="offset-1 col-lg-10">
+                                <input type="number" class="inp px-3" id="pno" name="pno" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        <div class="form-row py-3">
+                          <div class="offset-1 col-lg-10">
+                              <input type="email" class="inp px-3" id="email" name="email" placeholder="Email" required>
+                          </div>
+                      </div>
+                        <div class="form-row py-3">
+                            <div class="offset-1 col-lg-10">
+                                <input type="password" class="inp px-3" id="pass" name="pass" placeholder="Password" required>
+                            </div>
+                        </div>
+                        <div class="form-row py-3">
+                            <div class="offset-1 col-lg-10">
+                                <input type="password" class="inp px-3" id="cpass" name="cpass" placeholder="Confirm Password" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row py-3">
+                            <div class="offset-1 col-lg-10">
+                                <!---<button class="btn1">Register</button>--->
+                                <button class="btn1" onclick="validateForm(event)" value='click here' id="submit" name="submit" type="submit">Register</button>
+
+                                
+                            </div>
+                        </div>
+                    </form>
+                    <!--<span><p>or</p><a href="login.html">Login</a><span> with</span></span>-->
+                 
+                    <span><i class="fab fa-facebook"></i></span>
+                    <span><i class="fab fa-google-plus-g"></i></span>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+          <p class="text-white">SRI SENTHIL ANDAVAR TEX WEB</p>
+        </div>
+    </footer>
+</div>
+    <script src="home.js"></script>
+    <script src="regvalid.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

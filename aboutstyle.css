@@ -1,0 +1,274 @@
+/* Navbar container */
+.custom-navbar {
+    background-color: #333;
+  }
+  
+  /* Navbar brand link style */
+  .custom-navbar .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Navbar brand link hover effect */
+  .custom-navbar .navbar-brand:hover {
+    color: #ff6600;
+  }
+  
+  /* Navbar toggler icon style */
+  .custom-navbar .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  /* Navbar links style */
+  .custom-navbar .custom-navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+  
+  /* Navbar links hover effect */
+  .custom-navbar .custom-navbar-nav .nav-link:hover {
+    color: #ff6600;
+  }
+  
+  /* Navbar links active effect *
+  
+  /* Navbar CTA (Call to Action) icons style */
+  .custom-navbar .custom-navbar-cta .nav-link {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  /* Navbar CTA icons hover effect */
+  .custom-navbar .custom-navbar-cta .nav-link:hover {
+    color: #ff6600;
+  }
+  
+
+  .custom-navbar .custom-navbar-nav .nav-link:hover {
+    color: #ff6600;
+    opacity: 0.7; /* Lower opacity on hover */
+  }
+
+  .custom-navbar .custom-navbar-cta .nav-link:hover {
+    color: #ff6600;
+    opacity: 0.7; /* Lower opacity on hover */
+  }
+
+
+  
+/* CSS for contact section */
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1111;
+    background-color: #fff;
+    transition: all 10s;
+  }
+  
+  .loader img {
+    height: 150px;
+    width: 150px;
+    animation: spinlogo 2s linear infinite;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  @keyframes spinlogo {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+/* Style for the footer section */
+.footer-section {
+    background-color: #b0d0db; /* Set the background color */
+    color: #fff; /* Set text color to white */
+    padding: 80px 0; /* Add padding to the top and bottom of the section */
+}
+
+/* Style for the subscription form */
+.subscription-form {
+    margin-bottom: 30px; /* Add space at the bottom of the form */
+}
+
+/* Style for the subscription form title and envelope icon */
+.subscription-form h3 {
+    font-size: 20px; /* Set the font size for the title */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add space at the bottom of the title */
+}
+
+.subscription-form h3 img {
+    width: 24px; /* Set the width of the envelope icon */
+    margin-right: 10px; /* Add space between the icon and text */
+}
+
+/* Style for the form input fields */
+.subscription-form input[type="text"],
+.subscription-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff; /* Add a white border */
+    background-color: transparent; /* Make the background transparent */
+    color: #fff; /* Set text color to white */
+    border-radius: 5px; /* Add rounded corners */
+    margin-right: 10px; /* Add space between the input fields */
+}
+
+/* Style for the submit button */
+.subscription-form button {
+    background-color: #007bff; /* Set the button background color */
+    color: #fff; /* Set the text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add a hover effect to the submit button */
+.subscription-form button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+
+/* Style for the footer logo */
+.footer-logo-wrap .footer-logo {
+    font-size: 24px; /* Set the font size for the footer logo */
+}
+
+/* Style for social icons */
+.custom-social li {
+    display: inline;
+    margin-right: 15px; /* Add space between social icons */
+}
+
+/* Add a hover effect to social icons */
+.custom-social li a:hover {
+    color: #007bff; /* Change the icon color on hover */
+}
+
+/* Style for the links in the links-wrap */
+.links-wrap ul.list-unstyled li a {
+    text-decoration: none;
+    color: #fff; /* Set link color to white */
+    display: block;
+    margin-bottom: 5px; /* Add space between links */
+}
+
+/* Add a hover effect to links in the links-wrap */
+.links-wrap ul.list-unstyled li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Style for copyright and terms/privacy links */
+.copyright p,
+.copyright ul.list-unstyled li {
+    color: #a0a0a0; /* Set a lighter text color for copyright and links */
+}
+
+/* Add a hover effect to terms/privacy links */
+.copyright ul.list-unstyled li a:hover {
+    color: #fff; /* Change the link color on hover */
+}
+
+
+/* Hero Section */
+.hero {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  /* Hero Title Style */
+  .hero h1 {
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  /* Hero Subtitle Style */
+  .hero p {
+    color: #666;
+    font-size: 18px;
+  }
+  
+  /* Hero Button Styles */
+  .hero .btn-secondary {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .hero .btn-white-outline {
+    background-color: transparent;
+    color: #333;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Hover Effect for Hero Buttons */
+  .hero .btn-secondary:hover {
+    background-color: #ff6600;
+  }
+  
+  .hero .btn-white-outline:hover {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #ff6600;
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-section {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  /* Section Title Style */
+  .why-choose-section .section-title {
+    font-size: 30px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  /* Feature Icon Style */
+  .why-choose-section .icon img {
+    max-width: 60px;
+  }
+  
+  /* Feature Title Style */
+  .why-choose-section h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  /* Feature Description Style */
+  .why-choose-section p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  /* Hover Effect for Feature Icons */
+  .why-choose-section .feature .icon img:hover {
+    opacity: 0.7;
+  }
+  

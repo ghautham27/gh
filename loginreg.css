@@ -1,0 +1,215 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1111;
+    background-color: #fff;
+    transition: all 10s;
+  }
+  
+  .loader img {
+    height: 150px;
+    width: 150px;
+    animation: spinlogo 2s linear infinite;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  @keyframes spinlogo {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+/* Style for the hero section */
+.hero {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  /* Style for the "Cart" title */
+  .hero h1 {
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0;
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  /* Hover effect for the "Cart" title */
+  .hero h1:hover {
+    color: #ff6600; /* Change the color on hover */
+  }
+  
+  /* Hypothetical button style */
+  .button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+  }
+  
+  /* Hover effect for the hypothetical button */
+  .button:hover {
+    background-color: #333; /* Change the background color on hover */
+  }
+/* Style for the hero section */
+.hero {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  /* Style for the "Cart" title */
+  .hero h1 {
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0;
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  /* Hover effect for the "Cart" title */
+  .hero h1:hover {
+    color: #ff6600; /* Change the color on hover */
+  }
+  
+  /* Hypothetical button style */
+  .button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+  }
+  
+  /* Hover effect for the hypothetical button */
+  .button:hover {
+    background-color: #333; /* Change the background color on hover */
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+  body{
+      font-family: 'Poppins', sans-serif;
+      background: #ececec;
+  }
+  
+  /*------------ Login container ------------*/
+  
+  .box-area{
+      width: 930px;
+  }
+  
+  /*------------ Right box ------------*/
+  
+  .right-box{
+      padding: 40px 30px 40px 40px;
+  }
+  
+  /*------------ Custom Placeholder ------------*/
+  
+  ::placeholder{
+      font-size: 16px;
+  }
+  
+  .rounded-4{
+      border-radius: 20px;
+  }
+  .rounded-5{
+      border-radius: 30px;
+  }
+  
+  
+  /*------------ For small screens------------*/
+  
+  @media only screen and (max-width: 768px){
+  
+    .box-area{
+       margin: 0 10px;
+  
+    }
+    .left-box{
+       height: 100px;
+       overflow: hidden;
+    }
+    .right-box{
+       padding: 20px;
+    }
+  
+  }
+
+
+  /* Navbar container */
+.custom-navbar {
+    background-color: #90cdde;
+  }
+  
+  /* Navbar brand link style */
+  .custom-navbar .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Navbar brand link hover effect */
+  .custom-navbar .navbar-brand:hover {
+    color: #ff6600;
+  }
+  
+  /* Navbar toggler icon style */
+  .custom-navbar .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  /* Navbar links style */
+  .custom-navbar .custom-navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+  
+  /* Navbar links hover effect */
+  .custom-navbar .custom-navbar-nav .nav-link:hover {
+    color: #ff6600;
+  }
+  
+  /* Navbar links active effect *
+  
+  /* Navbar CTA (Call to Action) icons style */
+  .custom-navbar .custom-navbar-cta .nav-link {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  /* Navbar CTA icons hover effect */
+  .custom-navbar .custom-navbar-cta .nav-link:hover {
+    color: #ff6600;
+  }
+  
+
+  .custom-navbar .custom-navbar-nav .nav-link:hover {
+    color: #ff6600;
+    opacity: 0.7; /* Lower opacity on hover */
+  }
+
+  .custom-navbar .custom-navbar-cta .nav-link:hover {
+    color: #ff6600;
+    opacity: 0.7; /* Lower opacity on hover */
+  }

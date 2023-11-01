@@ -1,0 +1,418 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1111;
+    background-color: #fff;
+    transition: all 10s;
+  }
+  
+  .loader img {
+    height: 150px;
+    width: 150px;
+    animation: spinlogo 2s linear infinite;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  @keyframes spinlogo {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/* Apply background image to the hero section */
+/* Apply hover effect to navigation links */
+/* Navbar container */
+.custom-navbar {
+    background-color: #333;
+  }
+  
+  /* Navbar brand link style */
+  .custom-navbar .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Navbar brand link hover effect */
+  .custom-navbar .navbar-brand:hover {
+    color: #ff6600;
+  }
+  
+  /* Navbar toggler icon style */
+  .custom-navbar .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  /* Navbar links style */
+  .custom-navbar .custom-navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+  
+  /* Navbar links hover effect */
+  .custom-navbar .custom-navbar-nav .nav-link:hover {
+    color: #ff6600;
+  }
+  
+  /* Navbar links active effect *
+  
+  /* Navbar CTA (Call to Action) icons style */
+  .custom-navbar .custom-navbar-cta .nav-link {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  /* Navbar CTA icons hover effect */
+  .custom-navbar .custom-navbar-cta .nav-link:hover {
+    color: #ff6600;
+  }
+  
+
+  .custom-navbar .custom-navbar-nav .nav-link:hover {
+    color: #ff6600;
+    opacity: 0.7; /* Lower opacity on hover */
+  }
+
+  .custom-navbar .custom-navbar-cta .nav-link:hover {
+    color: #ff6600;
+    opacity: 0.7; /* Lower opacity on hover */
+  }
+.hero {
+    background-color: lightgray; /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover; /* Cover the entire hero section with the image */
+    background-position: center; /* Center the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    padding: 60px 0; /* Add padding to the top and bottom of the hero section */
+    color: #fff; /* Set the text color to white for better contrast */
+}
+
+/* Styles for the container */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Styles for the row with content */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Styles for the left column */
+.col-lg-5 {
+    flex: 0 0 45%;
+}
+
+/* Styles for the h1 inside the intro-excerpt */
+.intro-excerpt h1 {
+    font-size: 36px;
+}
+
+/* Styles for the "Shop Now" and "Explore" buttons */
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-white-outline {
+    background-color: transparent;
+    border: 2px solid #fff; /* Add a white border to the secondary button */
+    color: #fff;
+}
+
+/* Styles for the right column containing the image */
+.col-lg-7 {
+    flex: 0 0 100%;
+}
+
+/* Styles for the image inside the hero-img-wrap */
+.hero-img-wrap img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the product section container */
+.product-section {
+    background-color: #f5f5f5; /* Set a background color for the product section */
+    padding: 60px 0; /* Add padding to the top and bottom of the section */
+}
+
+/* Style for the section title */
+.section-title {
+    font-size: 24px; /* Set the font size for the section title */
+}
+
+/* Style for the product items */
+.product-item {
+    display: block;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Add a smooth transform effect on hover */
+}
+
+.product-item:hover {
+    transform: translateY(-5px); /* Lift the product item slightly on hover */
+}
+
+/* Style for the product thumbnails */
+.product-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the product title */
+.product-title {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style for the product price */
+.product-price {
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Style for the 'Explore' button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Add a smooth background color change on hover */
+}
+
+.btn:hover {
+    background-color: #ffcc00; /* Change the background color on hover */
+}
+
+/* Style for the cross icon */
+.icon-cross img {
+    max-width: 16px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+/* Style for the icon-cross */
+.icon-cross img {
+    display: block;
+    width: 24px; /* Set the width of the icon */
+    height: 24px; /* Set the height of the icon */
+    margin-top: 10px; /* Adjust the margin to center the icon vertically */
+    transition: transform 0.2s; /* Add a smooth transition effect for the icon */
+}
+
+/* Add a hover effect to the icon-cross */
+.icon-cross:hover img {
+    transform: scale(1.2); /* Increase the size of the icon on hover */
+}
+
+
+/* Style for the Why Choose Us section */
+.why-choose-section {
+    background-color: #f5f5f5; /* Set the background color */
+    padding: 80px 0; /* Add padding to the top and bottom of the section */
+}
+
+/* Style for the section title */
+.section-title {
+    font-size: 36px; /* Set the font size for the title */
+}
+
+/* Style for the main content text */
+.why-choose-section p {
+    margin-top: 20px; /* Add space at the top of the text */
+}
+
+/* Style for the features (Fast & Free Shipping, Easy to Shop, etc.) */
+.feature {
+    margin-bottom: 20px; /* Add space between features */
+}
+
+/* Style for the feature icons */
+.feature .icon img {
+    width: 50px; /* Set the width of the icons */
+    height: 50px; /* Set the height of the icons */
+}
+
+/* Style for the feature titles */
+.feature h3 {
+    font-size: 20px; /* Set the font size for the feature titles */
+    margin-top: 10px; /* Add space at the top of the titles */
+}
+
+/* Style for the feature descriptions */
+.feature p {
+    margin-top: 10px; /* Add space at the top of the descriptions */
+}
+
+/* Style for the image on the right */
+.img-wrap img {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+/* Additional styles can be added or adjusted as needed to match your design preferences. */
+/* Style for the Popular Product section */
+.popular-product {
+    background-color: #f5f5f5; /* Set the background color */
+    padding: 80px 0; /* Add padding to the top and bottom of the section */
+}
+
+/* Style for product item container */
+.product-item-sm {
+    background-color: #fff; /* Set a white background for product items */
+    padding: 20px; /* Add padding to product items */
+    border-radius: 5px; /* Add rounded corners to product items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: transform 0.2s; /* Add a smooth transition effect for hover */
+}
+
+/* Style for product item images */
+.thumbnail img {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+/* Style for product item titles */
+.product-item-sm h3 {
+    font-size: 20px; /* Set the font size for the product titles */
+    margin-top: 10px; /* Add space at the top of the titles */
+}
+
+/* Style for product item descriptions */
+.product-item-sm p {
+    margin-top: 10px; /* Add space at the top of the descriptions */
+}
+
+/* Add a hover effect to product items */
+.product-item-sm:hover {
+    transform: translateY(-5px); /* Slightly lift the product item on hover */
+}
+
+/* Style for "Read More" links */
+.product-item-sm a {
+    text-decoration: none;
+    color: #007bff; /* Set the link color */
+}
+
+/* Add a hover effect to "Read More" links */
+.product-item-sm a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
+/* Style for the footer section */
+.footer-section {
+    background-color: #b0d0db; /* Set the background color */
+    color: #fff; /* Set text color to white */
+    padding: 80px 0; /* Add padding to the top and bottom of the section */
+}
+
+/* Style for the subscription form */
+.subscription-form {
+    margin-bottom: 30px; /* Add space at the bottom of the form */
+}
+
+/* Style for the subscription form title and envelope icon */
+.subscription-form h3 {
+    font-size: 20px; /* Set the font size for the title */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add space at the bottom of the title */
+}
+
+.subscription-form h3 img {
+    width: 24px; /* Set the width of the envelope icon */
+    margin-right: 10px; /* Add space between the icon and text */
+}
+
+/* Style for the form input fields */
+.subscription-form input[type="text"],
+.subscription-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff; /* Add a white border */
+    background-color: transparent; /* Make the background transparent */
+    color: #fff; /* Set text color to white */
+    border-radius: 5px; /* Add rounded corners */
+    margin-right: 10px; /* Add space between the input fields */
+}
+
+/* Style for the submit button */
+.subscription-form button {
+    background-color: #007bff; /* Set the button background color */
+    color: #fff; /* Set the text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add a hover effect to the submit button */
+.subscription-form button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+
+/* Style for the footer logo */
+.footer-logo-wrap .footer-logo {
+    font-size: 24px; /* Set the font size for the footer logo */
+}
+
+/* Style for social icons */
+.custom-social li {
+    display: inline;
+    margin-right: 15px; /* Add space between social icons */
+}
+
+/* Add a hover effect to social icons */
+.custom-social li a:hover {
+    color: #007bff; /* Change the icon color on hover */
+}
+
+/* Style for the links in the links-wrap */
+.links-wrap ul.list-unstyled li a {
+    text-decoration: none;
+    color: #fff; /* Set link color to white */
+    display: block;
+    margin-bottom: 5px; /* Add space between links */
+}
+
+/* Add a hover effect to links in the links-wrap */
+.links-wrap ul.list-unstyled li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Style for copyright and terms/privacy links */
+.copyright p,
+.copyright ul.list-unstyled li {
+    color: #a0a0a0; /* Set a lighter text color for copyright and links */
+}
+
+/* Add a hover effect to terms/privacy links */
+.copyright ul.list-unstyled li a:hover {
+    color: #fff; /* Change the link color on hover */
+}

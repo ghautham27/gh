@@ -1,0 +1,188 @@
+body{
+    background: #f7f7f7;
+}
+.section-title{
+    text-align: center;
+    padding: 25px 0;
+}
+.section-title h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.section-title h2 span{
+    color: yellow;
+}
+.contact-form{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    padding: 40px 30px;
+}
+.contact-form .btn{
+    background: yellow;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 50px;
+    letter-spacing: 2px;
+}
+.map-area{
+    width: 600px;
+    height: 465px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.map-area iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.contact-area {
+    padding: 60px 0;
+}
+
+
+/*responsive*/
+@media (max-width: 991px){
+    .contact-form{
+        margin-bottom: 30px;
+    }
+    .map-area{
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .img-area img{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 767px){    
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px; 
+    }
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+    .about-text{
+        padding-top:50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+}
+/* CSS for contact section */
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1111;
+    background-color: #fff;
+    transition: all 10s;
+  }
+  
+  .loader img {
+    height: 150px;
+    width: 150px;
+    animation: spinlogo 2s linear infinite;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  @keyframes spinlogo {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+/* Navbar container */
+.custom-navbar {
+    background-color: #333;
+  }
+  
+  /* Navbar brand link style */
+  .custom-navbar .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Navbar brand link hover effect */
+  .custom-navbar .navbar-brand:hover {
+    color: #ff6600;
+  }
+  
+  /* Navbar toggler icon style */
+  .custom-navbar .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  /* Navbar links style */
+  .custom-navbar .custom-navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+  
+  /* Navbar links hover effect */
+  .custom-navbar .custom-navbar-nav .nav-link:hover {
+    color: #ff6600;
+  }
+  
+  /* Navbar links active effect *
+  
+  /* Navbar CTA (Call to Action) icons style */
+  .custom-navbar .custom-navbar-cta .nav-link {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  /* Navbar CTA icons hover effect */
+  .custom-navbar .custom-navbar-cta .nav-link:hover {
+    color: #ff6600;
+  }
+  
+
+  .custom-navbar .custom-navbar-nav .nav-link:hover {
+    color: #ff6600;
+    opacity: 0.7; /* Lower opacity on hover */
+  }
+
+  .custom-navbar .custom-navbar-cta .nav-link:hover {
+    color: #ff6600;
+    opacity: 0.7; /* Lower opacity on hover */
+  }

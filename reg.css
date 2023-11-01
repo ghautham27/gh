@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 20px 20px 44px;
+}
+.login img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    size: 100%;
+    width: 100%;
+    height: 100%;
+}
+.login h1{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10;
+}
+
+.inp{
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: 0px 1px 30px -11px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 30px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 30px -11px rgba(0,0,0,0.75);
+}
+.btn1{
+    height: 50px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    background: rgb(50, 50, 188);
+
+}
+
+.btn1:hover{
+    background: rgb(18, 18, 79);
+    transition: 0.5s;
+}
+.fa-facebook{
+    font-size: 2.5rem;
+    color: blue;
+
+}
+.fa-google-plus-g{
+    font-size: 2.5rem;
+    color: red;
+}
+
+
+
+*{
+    font-family: montserrat;
+}
+body{
+    background: f1fbff;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    top: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    color: #000;
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: Orgba(0,0,0,0.7);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    }
+.navbar-Light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-Light .navbar-brand:focus,
+.navbar-Light .navbar-brand:hover{
+    color: #000;
+}
+.navbar-Light .navbar-nav .navbar-link{
+    color: #000;
+}
+.W-100{
+    height: 100vh;
+}
+
+
+
+.services .card-body i{
+    font-size: 50px;
+}
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1111;
+    background-color: #fcfcfc;
+    transition: all 10s;
+  }
+  
+  .loader img {
+    height: 150px;
+    width: 150px;
+    animation: spinlogo 2s linear infinite;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  @keyframes spinlogo {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+
+
+
+
+/* Navbar container */
+.custom-navbar {
+    background-color: #333;
+  }
+  
+  /* Navbar brand link style */
+  .custom-navbar .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Navbar brand link hover effect */
+  .custom-navbar .navbar-brand:hover {
+    color: #ff6600;
+  }
+  
+  /* Navbar toggler icon style */
+  .custom-navbar .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  /* Navbar links style */
+  .custom-navbar .custom-navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+  
+  /* Navbar links hover effect */
+  .custom-navbar .custom-navbar-nav .nav-link:hover {
+    color: #ff6600;
+  }
+  
+  /* Navbar links active effect *
+  
+  /* Navbar CTA (Call to Action) icons style */
+  .custom-navbar .custom-navbar-cta .nav-link {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  /* Navbar CTA icons hover effect */
+  .custom-navbar .custom-navbar-cta .nav-link:hover {
+    color: #ff6600;
+  }
+  
+
+  .custom-navbar .custom-navbar-nav .nav-link:hover {
+    color: #ff6600;
+    opacity: 0.7; /* Lower opacity on hover */
+  }
+
+  .custom-navbar .custom-navbar-cta .nav-link:hover {
+    color: #ff6600;
+    opacity: 0.7; /* Lower opacity on hover */
+  }
